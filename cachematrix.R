@@ -2,11 +2,11 @@
 # inverse matrix calculation.
 #
 # Matrix inversion is usually has a high computation and, thus, caching its
-# result instead of computing it repeatedly is a good method to use.
+# result instead of computing it repeatedly is a good method to use
 
 
 makeCacheMatrix <- function(x = matrix()) {
-  # Create a matrix wrapper, that allows for caching the matrix inversion.
+  # Create a matrix wrapper, that allows for caching the matrix inversion
   #
   # Arguments:
   #   x: The matrix to be wrapped.
